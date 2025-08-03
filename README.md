@@ -24,6 +24,9 @@ A modern, responsive, and animated fitness landing page built with HTML5, Tailwi
 - **Parallax effects** on hero background
 - **Typing animation** for hero title
 
+### 📸 Screenshots
+(./assets/screenshots/desktop-view.png)
+
 ### 📱 Responsive Design
 - **Desktop (1440px)**: Full horizontal layout with animations
 - **Tablet (768px)**: Columns stack vertically, menu collapses
@@ -212,7 +215,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For questions or support:
 - Create an issue on GitHub
-- Contact: info@fflfitness.com
+- Contact: charanmasagani@gmail.com
 - Documentation: [Project Wiki](link-to-wiki)
 
 ---
