@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ffl-fitness.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow any admin or private areas (if they exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow all CSS, JS, and image files
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+Allow: /*.eot$ 

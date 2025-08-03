@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FFL Fitness | Our Story & Mission</title>
+    <meta name="description" content="Learn about FFL Fitness - our story, mission, and commitment to transforming lives through fitness since 1999.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ffl-fitness.com/about">
+    <meta property="og:title" content="About Us - FFL Fitness | Our Story & Mission">
+    <meta property="og:description" content="Learn about FFL Fitness - our story, mission, and commitment to transforming lives through fitness since 1999.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-['Inter']">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-gray-900">
+                        <span class="text-orange-500">FFL</span>
+                        <span class="text-gray-700">Fitness</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="about.html" class="nav-link text-orange-500">About</a>
+                        <a href="services.html" class="nav-link">Services</a>
+                        <a href="index.html#video" class="nav-link">Video</a>
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="index.html#contact" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105">
+                        Join Now
+                    </a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-orange-500 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="about.html" class="mobile-nav-link bg-orange-500 text-white">About</a>
+                <a href="services.html" class="mobile-nav-link">Services</a>
+                <a href="index.html#video" class="mobile-nav-link">Video</a>
+                <a href="index.html#contact" class="mobile-nav-link">Contact</a>
+                <a href="index.html#contact" class="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full transition-all duration-300">
+                    Join Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-16 bg-gradient-to-r from-orange-500 to-orange-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-white">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">
+                    About <span class="text-orange-200">FFL Fitness</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                    Transforming lives through fitness since 1999. Discover our story, mission, and the passionate team behind your fitness journey.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        FFL Fitness was born from a simple yet powerful vision: to make fitness accessible to everyone, regardless of their background or experience level. What started as a small local gym in 1999 has grown into a comprehensive fitness community that has transformed thousands of lives.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Our founders, John and Sarah Martinez, believed that fitness should be more than just working out – it should be a lifestyle that promotes health, happiness, and community. They started with just 500 square feet and a handful of basic equipment, but their passion and dedication attracted like-minded individuals who shared their vision.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        Today, FFL Fitness stands as a testament to what can be achieved when you combine passion with purpose. We've helped over 27,000 members achieve their fitness goals and continue to inspire new generations of fitness enthusiasts.
+                    </p>
+                </div>
+                <div data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                         alt="FFL Fitness founders" class="rounded-lg shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Journey</h2>
+                <p class="text-xl text-gray-600">25 years of dedication to fitness excellence</p>
+            </div>
+            
+            <div class="space-y-12">
+                <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                    <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
+                        <div class="bg-orange-500 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto md:mx-0 mb-4">
+                            <i class="fas fa-dumbbell text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">1999 - The Beginning</h3>
+                        <p class="text-gray-600">Started with a 500 sq ft space and basic equipment. John and Sarah Martinez opened their doors with a vision to make fitness accessible to everyone in the community.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                             alt="1999 gym opening" class="rounded-lg shadow-lg">
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row-reverse items-center" data-aos="fade-up">
+                    <div class="md:w-1/2 md:pl-8 mb-8 md:mb-0">
+                        <div class="bg-orange-500 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto md:mx-0 mb-4">
+                            <i class="fas fa-users text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">2010 - Community Growth</h3>
+                        <p class="text-gray-600">Expanded to 10,000 sq ft facility with state-of-the-art equipment. Reached 10,000 active members and introduced specialized training programs.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                             alt="2010 expansion" class="rounded-lg shadow-lg">
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row items-center" data-aos="fade-up">
+                    <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
+                        <div class="bg-orange-500 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto md:mx-0 mb-4">
+                            <i class="fas fa-trophy text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">2024 - Industry Leader</h3>
+                        <p class="text-gray-600">Recognized as one of the top fitness facilities nationwide with 27,000+ active members, 150 expert trainers, and cutting-edge technology.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                             alt="2024 modern facility" class="rounded-lg shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        To inspire and empower individuals to achieve their fitness goals through personalized training, state-of-the-art facilities, and a supportive community that fosters lasting lifestyle changes.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-heart text-orange-500 text-xl mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Health First</h4>
+                                <p class="text-gray-600">We prioritize your health and well-being above all else.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-users text-orange-500 text-xl mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Community</h4>
+                                <p class="text-gray-600">Building a supportive environment where everyone feels welcome.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-star text-orange-500 text-xl mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Excellence</h4>
+                                <p class="text-gray-600">Committed to providing the highest quality fitness experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Our Values</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <i class="fas fa-shield-alt text-3xl text-orange-500 mb-4"></i>
+                            <h4 class="text-lg font-semibold text-gray-900 mb-2">Safety</h4>
+                            <p class="text-gray-600">Your safety is our top priority in everything we do.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <i class="fas fa-graduation-cap text-3xl text-orange-500 mb-4"></i>
+                            <h4 class="text-lg font-semibold text-gray-900 mb-2">Education</h4>
+                            <p class="text-gray-600">Empowering you with knowledge for lifelong fitness.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <i class="fas fa-handshake text-3xl text-orange-500 mb-4"></i>
+                            <h4 class="text-lg font-semibold text-gray-900 mb-2">Integrity</h4>
+                            <p class="text-gray-600">Honest, transparent, and ethical in all our practices.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <i class="fas fa-rocket text-3xl text-orange-500 mb-4"></i>
+                            <h4 class="text-lg font-semibold text-gray-900 mb-2">Innovation</h4>
+                            <p class="text-gray-600">Always evolving and improving our services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Meet Our Leadership</h2>
+                <p class="text-xl text-gray-600">The passionate team driving FFL Fitness forward</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="John Martinez" class="w-48 h-48 rounded-full mx-auto mb-6 object-cover">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">John Martinez</h3>
+                    <p class="text-orange-500 font-semibold mb-2">Co-Founder & CEO</p>
+                    <p class="text-gray-600">25+ years in fitness industry. Certified personal trainer and nutrition specialist.</p>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Sarah Martinez" class="w-48 h-48 rounded-full mx-auto mb-6 object-cover">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Sarah Martinez</h3>
+                    <p class="text-orange-500 font-semibold mb-2">Co-Founder & COO</p>
+                    <p class="text-gray-600">Former Olympic athlete. Specializes in strength training and rehabilitation.</p>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Mike Johnson" class="w-48 h-48 rounded-full mx-auto mb-6 object-cover">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Mike Johnson</h3>
+                    <p class="text-orange-500 font-semibold mb-2">Head of Training</p>
+                    <p class="text-gray-600">15+ years experience. Former professional athlete and certified coach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-orange-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-4">Our Impact</h2>
+                <p class="text-xl text-orange-100">Numbers that tell our story</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-white mb-2 about-counter" data-target="27000">0</div>
+                    <div class="text-orange-100">Active Members</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-white mb-2 about-counter" data-target="150">0</div>
+                    <div class="text-orange-100">Expert Trainers</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-white mb-2 about-counter" data-target="25">0</div>
+                    <div class="text-orange-100">Years Experience</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-white mb-2 about-counter" data-target="50000">0</div>
+                    <div class="text-orange-100">Lives Transformed</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6" data-aos="fade-up">Ready to Join Our Community?</h2>
+            <p class="text-xl text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="200">
+                Become part of the FFL Fitness family and start your transformation journey today.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="index.html#contact" class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                    Start Your Journey
+                </a>
+                <a href="services.html" class="bg-transparent border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300">
+                    View Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <span class="text-orange-500">FFL</span> Fitness
+                    </h3>
+                    <p class="text-gray-300 mb-4">
+                        Transform your life with our state-of-the-art facilities and expert trainers. We're committed to helping you achieve your fitness goals and live a healthier lifestyle.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-orange-500 transition-colors"><i class="fab fa-facebook text-xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-orange-500 transition-colors"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-orange-500 transition-colors"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-orange-500 transition-colors"><i class="fab fa-youtube text-xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-orange-500 transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-orange-500 transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-orange-500 transition-colors">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-orange-500 transition-colors">Our Services</a></li>
+                        <li><a href="index.html#video" class="text-gray-300 hover:text-orange-500 transition-colors">Video Tour</a></li>
+                        <li><a href="index.html#contact" class="text-gray-300 hover:text-orange-500 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Our Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-300 hover:text-orange-500 transition-colors">Strength Training</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-orange-500 transition-colors">Cardio Classes</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-orange-500 transition-colors">Yoga & Pilates</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-orange-500 transition-colors">Personal Training</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-3 text-gray-300">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt mr-3 mt-1 text-orange-500"></i>
+                            <div>
+                                <p>123 Fitness Street</p>
+                                <p>Downtown District</p>
+                                <p>City, State 12345</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone mr-3 text-orange-500"></i>
+                            <p>(555) 123-4567</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-orange-500"></i>
+                            <p>info@fflfitness.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright Section -->
+            <div class="border-t border-gray-700 mt-8 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center text-gray-300">
+                    <div class="text-center md:text-left mb-4 md:mb-0">
+                        <p>&copy; 2024 FFL Fitness. All rights reserved. | Fitness For Life</p>
+                        <p class="text-sm mt-1">Designed and developed with ❤️ for fitness enthusiasts worldwide</p>
+                    </div>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="#" class="hover:text-orange-500 transition-colors">Privacy Policy</a>
+                        <a href="#" class="hover:text-orange-500 transition-colors">Terms of Service</a>
+                        <a href="#" class="hover:text-orange-500 transition-colors">Cookie Policy</a>
+                        <a href="#" class="hover:text-orange-500 transition-colors">Sitemap</a>
+                    </div>
+                </div>
+                <div class="text-center mt-4 text-sm text-gray-400">
+                    <p>FFL Fitness is a registered trademark. All other trademarks and service marks are the property of their respective owners.</p>
+                    <p class="mt-2">This website is for demonstration purposes. FFL Fitness is a fictional company created for educational and portfolio purposes.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
