@@ -25,7 +25,7 @@ A modern, responsive, and animated fitness landing page built with HTML5, Tailwi
 - **Typing animation** for hero title
 
 ### 📸 Screenshots
-((https://github.com/Charansai1902/fitness-landing-page/blob/main/Page1.jpg))
+(https://github.com/Charansai1902/fitness-landing-page/blob/main/Page1.jpg)
 
 ### 📱 Responsive Design
 - **Desktop (1440px)**: Full horizontal layout with animations
